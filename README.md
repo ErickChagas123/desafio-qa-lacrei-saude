@@ -4,6 +4,8 @@ Este repositório contém os artefatos criados durante a execução do **Desafio
 
 ## 🗂️ Estrutura do Repositório
 📁 lacrei-qa-desafio/<br>
+┣ 📁 docs/ # Casos de teste em linguagem Gherkin<br>
+┃ ┗ registro_de_testes.md<br>
 ┣ 📁 features/ # Casos de teste em linguagem Gherkin<br>
 ┃ ┣ cadastro.feature<br>
 ┃ ┣ recuperacao_senha.feature<br>
