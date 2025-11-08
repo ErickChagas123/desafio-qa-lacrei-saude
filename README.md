@@ -18,6 +18,7 @@ Foram validados os seguintes fluxos dentro do ambiente de staging da plataforma:
 ## 🗂️ Estrutura do Repositório
 📁 lacrei-qa-desafio/<br>
 ┣ 📁 docs/ # Documentos de suporte e registro de execução dos testes <br>
+┃ ┣ relatorio_de_bugs.md<br>
 ┃ ┗ registro_de_testes.md<br>
 ┣ 📁 features/ # Casos de teste em linguagem Gherkin<br>
 ┃ ┣ cadastro.feature<br>
