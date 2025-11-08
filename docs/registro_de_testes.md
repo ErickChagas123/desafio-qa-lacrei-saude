@@ -15,9 +15,9 @@
 
 | ID      | Cenário                                            | Status | Prioridade | Severidade | Evidência / Link                                        |
 |----------|----------------------------------------------------|---------|-------------|-------------|----------------------------------------------------------|
-| TC-005  | Recuperação de senha com e-mail cadastrado          | ✅ Passou | Alta        | Média     | [recuperacao_senha.feature](../features/recuperacao_de_senha.feature) |
-| TC-006  | Recuperação de senha com e-mail inválido            | ✅ Passou | Média       | Baixa     | [recuperacao_senha.feature](../features/recuperacao_de_senha.feature) |
-| TC-007  | Recuperação de senha com e-mail não cadastrado      | ⚠️ Bug    | Alta        | Alta      | [recuperacao_senha.feature](../features/recuperacao_de_senha.feature) |
+| TC-005  | Recuperação de senha com e-mail cadastrado          | ✅ Passou | Alta        | Média     | [recuperacao_senha.feature](../features/recuperacao_senha.feature) |
+| TC-006  | Recuperação de senha com e-mail inválido            | ✅ Passou | Média       | Baixa     | [recuperacao_senha.feature](../features/recuperacao_senha.feature) |
+| TC-007  | Recuperação de senha com e-mail não cadastrado      | ⚠️ Bug    | Alta        | Alta      | [recuperacao_senha.feature](../features/recuperacao_senha.feature) |
 
 ---
 
