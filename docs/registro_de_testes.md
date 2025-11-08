@@ -15,7 +15,7 @@
 | TC-009  | Validação de força de senha exibida dinamicamente           | ✅ Passou | Alta        | Alta        | [cadastro.feature](../features/cadastro.feature) |
 | TC-010  | Tentativa de cadastro sem preencher checkbox "Li e concordo com os termos de uso" e "Políticas de Privacidade"                | ✅ Passou | Alta        | Alta        | [cadastro.feature](../features/cadastro.feature) |
 | TC-011  | Tentativa de cadastro sem preencher checkbox "Tenho 18 anos ou mais"               | ✅ Passou | Alta        | Alta        | [cadastro.feature](../features/cadastro.feature) |
-| TC-012  | Tentativa de cadastro com e-mail já cadastrado (Regra de Negócio) | ⚠️ Bug  | Alta    | Alta        | [cadastro.feature](../features/cadastro.feature) |
+| TC-012  | Tentativa de cadastro com e-mail já cadastrado (Regra de Negócio) | ⚠️ Bug  | Alta    | Médio        | [cadastro.feature](../features/cadastro.feature) |
 
 ---
 
