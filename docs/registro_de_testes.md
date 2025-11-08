@@ -24,5 +24,4 @@
 ### 💬 Observações Gerais
 - O fluxo de **cadastro** está funcional, mas não apresenta tela de confirmação, o que impacta UX.  
 - O fluxo de **recuperação de senha** exibe mensagens genéricas para e-mails inexistentes, o que é positivo para segurança, mas dificulta o debug.
--   
 - Testes realizados em ambiente *staging* no Chrome DevTools (modo mobile).  
