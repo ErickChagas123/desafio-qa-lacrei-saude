@@ -43,6 +43,13 @@ Foram validados os seguintes fluxos dentro do ambiente de staging da plataforma:
   - GitHub – versionamento e relatórios  
 
 ---
+Configuração do Ambiente de Automação<br>
+Para configurar e executar os testes automatizados localmente, siga estes passos:
+1. Pré-requisitos: Instale o Node.js (versão LTS recomendada).
+2. Instalação de Dependências: Na raiz do projeto, execute o comando para instalar o Cypress e as
+bibliotecas Cucumber/Gherkin:
+npm install
+
 
 ## 🧪 Execução dos Testes
 
@@ -108,7 +115,7 @@ Os testes foram executados **manualmente**, seguindo os cenários descritos em l
 
 ## 📱 Teste de Responsividade
 
-- Testado em **mobile (390x844px)** e **desktop (1920x1080px)**.  
+- Testado em **mobile (400x472px)** e **desktop (1920x1080px)**.  
 - Layouts mantêm integridade visual e funcionalidade.  
 - Pequeno desalinhamento de botão observado no rodapé mobile.
 
