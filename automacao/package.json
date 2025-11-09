@@ -1,0 +1,22 @@
+{
+  "name": "desafio-qa-lacrei",
+  "version": "1.0.0",
+  "description": "Desafio Técnico de QA para Lacrei Saúde, incluindo automação com Cypress e Cucumber.",
+  "main": "index.js",
+  "scripts": {
+    "test:cypress": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "qa",
+    "cypress",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress": "^13.13.0"
+  }
+}
