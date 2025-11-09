@@ -1,0 +1,51 @@
+name: Cypress CI - Teste de Cadastro
+
+on:
+push:
+branches:
+- main
+- master
+- desenvolvimento
+pull_request:
+branches:
+- main
+- master
+- desenvolvimento
+
+jobs:
+cypress-run:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout
+uses: actions/checkout@v4
+
+  # Instala o Node.js
+  - name: Setup Node.js
+    uses: actions/setup-node@v4
+    with:
+      node-version: '20'
+      cache: 'npm'
+
+  # Instala as dependências do projeto (npm install)
+  - name: Instala dependencias
+    run: npm install
+
+  # Roda os testes Cypress em modo headless
+  - name: Roda os testes Cypress
+    uses: cypress-io/github-action@v6
+    with:
+      start: npm start # Se o app precisasse rodar localmente
+      wait-on: 'http://localhost:3000' # Espera o app iniciar
+      browser: chrome
+      headless: true # Roda sem interface grafica, ideal para CI
+      command: npx cypress run --browser chrome --spec "cypress/e2e/cadastro.cy.js"
+
+  # Armazena os relatorios e screenshots como artefatos do GitHub Actions
+  - name: Armazena relatorios de execucao (Artifacts)
+    uses: actions/upload-artifact@v4
+    if: always()
+    with:
+      name: cypress-reports
+      path: |
+        cypress/screenshots/
+        cypress/videos/
