@@ -88,10 +88,9 @@ Os testes foram executados **manualmente**, seguindo os cenários descritos em l
 
 | Métrica | Resultado |
 |:--------|:-----------|
-| First Contentful Paint (FCP) | 1.6s |
-| Speed Index | 2.4s |
+| First Contentful Paint (FCP) | 1.0s |
+| Speed Index | 2.3s |
 | Time to Interactive (TTI) | 2.8s |
-| Performance Score | 93/100 |
 
 📄 Detalhes: [`/docs/teste_desempenho.md`](docs/teste_desempenho.md)
 
