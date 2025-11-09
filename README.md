@@ -79,7 +79,7 @@ Os testes foram executados **manualmente**, seguindo os cenários descritos em l
 | **BUG-004** | Imagem gera muito espaço desnecessário para que usuário atinja o final da página. | 🟡 Baixo | Observação de UX |
 | **BUG-005** | O botão "Cadastrar" deve ter o aria-disabled="true"osseguir” está desabilitado. | 🟡 Baixo | Observação de UX |
 
-📄 Relatório detalhado: [`/docs/relatorio_bugs.md`](docs/relatorio_bugs.md)
+📄 Relatório detalhado:https://github.com/ErickChagas123/desafio-qa-lacrei-saude/blob/main/docs/relatorio_de_bugs.md
 
 ---
 
