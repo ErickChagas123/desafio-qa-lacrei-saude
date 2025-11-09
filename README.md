@@ -76,6 +76,8 @@ Os testes foram executados **manualmente**, seguindo os cenários descritos em l
 | **BUG-001** | Após cadastro, usuário não consegue realizar login, mesmo após confirmação de e-mail. | 🚨 Crítico | Reportado à equipe |
 | **BUG-002** | Mensagem genérica na recuperação de senha ao usar e-mail não cadastrado. | ⚠️ Médio | Documentado |
 | **BUG-003** | Falta de feedback visual quando botão “Prosseguir” está desabilitado. | 🟡 Baixo | Observação de UX |
+| **BUG-004** | Imagem gera muito espaço desnecessário para que usuário atinja o final da página. | 🟡 Baixo | Observação de UX |
+| **BUG-005** | O botão "Cadastrar" deve ter o aria-disabled="true"osseguir” está desabilitado. | 🟡 Baixo | Observação de UX |
 
 📄 Relatório detalhado: [`/docs/relatorio_bugs.md`](docs/relatorio_bugs.md)
 
