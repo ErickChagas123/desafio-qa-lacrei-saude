@@ -1,7 +1,7 @@
 # 📱 Teste de Responsividade – Lacrei Saúde
 
 ## 🌐 Ambiente
-- **URL:** [https://paciente-staging.lacreisaude.com.br/](https://paciente-staging.lacreisaude.com.br/)
+- **URL:** [(https://paciente-staging.lacreisaude.com.br/)]
 - **Navegador:** Google Chrome (DevTools)
 - **Resoluções testadas:**
   - **Mobile:** 390x844 (iPhone 12)
@@ -13,11 +13,11 @@
 
 | Página | Dispositivo | Resultado | Observações |
 |--------|--------------|------------|--------------|
-| Página Inicial | Mobile | ⚠️ | Imagem principal muito grande, gerando espaçamento vertical excessivo antes do conteúdo. |
+| Página Inicial | Mobile | ✅ | Elementos organizados e campos de texto bem ajustados. |
 | Página Inicial | Desktop | ✅ | Layout proporcional e bem distribuído. |
 | Tela de Cadastro | Mobile | ✅ | Estrutura fluida e legível, sem scroll lateral. |
 | Tela de Cadastro | Desktop | ✅ | Alinhamento e espaçamento adequados. |
-| Recuperação de Senha | Mobile | ✅ | Elementos organizados e campos de texto bem ajustados. |
+| Recuperação de Senha | Mobile | ⚠️ | Imagem principal muito grande, gerando espaçamento vertical excessivo antes do conteúdo. |
 | Recuperação de Senha | Desktop | ✅ | Layout limpo, sem distorções. |
 
 ---
@@ -48,5 +48,4 @@ Fora isso, todos os elementos estão funcionais e visualmente coerentes.
 
 ---
 
-📅 **Data do Teste:** 07/11/2025  
-🧑‍💻 **Responsável:** Erick Chagas  
+📅 **Data do Teste:** 07/11/2025
