@@ -55,3 +55,42 @@ Ação sugerida: Notificar a equipe responsável sobre a importância de version
 ## 💬 Observações Gerais
 - Nenhum bug causa quebra de layout ou travamento da aplicação.  
 - Todos os bugs foram reproduzidos em ambiente de *staging* (Chrome DevTools, modo mobile).
+
+- ⚠️ BUG-004 — Espaçamento de Imagem em Modo Mobile
+Status: Aberto
+Severidade: Baixa
+Prioridade: Baixa
+Funcionalidade: Recuperação de Senha
+
+Descrição:
+Imagem gera muito espaço desnecessário para que usuário atinja o final da página.
+
+Passos para reprodução:
+Em modo Mobile, acessar a tela de Login
+Clicar em “Esqueci minha senha”
+
+Resultado obtido:
+Observa-se imagem com grandes espaços ao redor.
+
+Resultado esperado:
+É possível observar imagem ajustada e otimizada para experiência do usuário
+
+Impacto:
+Experiência do usuário impactada de maneira negativa.
+
+⚠️ BUG-005 — Atualização Status Botão Cadastrar
+Status: Aberto
+Severidade: Baixa
+Prioridade: Média
+Funcionalidade: Cadastro de Usuário
+
+Descrição:
+O botão "Cadastrar" deve ter o aria-disabled="true" e feedback visual claro quando estiver desabilitado (ex: faltando dados nos campos). Essa atualização estava no site dia 05/11.
+
+Passos para reprodução:
+
+1. Abrir página de login
+2. Clicar em Criar Conta
+3. Preencher campos “Nome civil ou social”, “Sobrenome”, “E-mail”, “Confirme seu e-mail”, “Senha” e “Confirme sua senha”
+4. Preencher dois checkbox
+5. Clicar em cadastrar
